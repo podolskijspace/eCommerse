@@ -1,0 +1,169 @@
+.header--menuBtn {
+  display: none;
+  font-family: "PTSans";
+  font-size: 1em;
+  padding-left: 41px;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin-top: 41px;
+}
+
+.header--menuBtn span {
+  vertical-align: 2px;
+}
+
+@media (max-width: 780px) {
+  .header--menuBtn {
+    display: block;
+  }
+}
+
+.header--menuBtn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.header--top {
+  width: 100%;
+}
+
+.header--top__nav {
+  padding: 40px 0 42px;
+  margin: 0px auto;
+  width: max-content;
+}
+
+@media (max-width: 780px) {
+  .header--top__nav {
+    display: none;
+  }
+}
+
+.header--top__link {
+  margin-right: 57px;
+  color: #f1f1f1;
+  font-family: 'PTSans';
+  font-size: 1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.header--top__link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.header--top__line {
+  width: 100%;
+  height: 1px;
+  background: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .header--top__line {
+    width: 85%;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 780px) {
+  .header--top__line {
+    display: none;
+  }
+}
+
+.header--bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 0 53px;
+}
+
+@media (max-width: 1200px) {
+  .header--bottom {
+    display: none;
+  }
+}
+
+.header--bottom__text {
+  font-size: 0.6667em;
+  color: #f1f1f1;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 13px;
+  text-align: center;
+}
+
+.header--bottom__scrollDown {
+  margin: 0px auto;
+  width: max-content;
+}
+
+.header--bottom__scrollDown:hover {
+  cursor: pointer;
+}
+
+.header--bottom__scrollDown:hover > i {
+  color: #bebebe;
+}
+
+.header--bottom__scrollDown i {
+  margin: 0;
+  font-size: 38px;
+  display: block;
+  color: #ffffff;
+}
+
+.header--bottom__scrollDown i:nth-child(1) {
+  margin-bottom: -22px;
+}
+
+.bars {
+  width: 100%;
+  max-width: 410px;
+  transform: translateX(100%);
+  background: #b8b8cd;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  transition: 0.3s;
+  font-family: "OpenSans";
+}
+
+.bars_active {
+  transform: translateX(0);
+}
+
+.bars-menu {
+  width: max-content;
+  margin: 0px auto;
+}
+
+.bars-menu__item {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.bars-menu__item a:hover {
+  color: #ffffff;
+}
+
+.bars svg {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  fill: #190b02;
+}
+
+.bars svg:hover {
+  cursor: pointer;
+  fill: #ffffff;
+}

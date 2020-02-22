@@ -1,0 +1,100 @@
+@import "media";
+.about
+    &--wrapper
+        display: flex
+        margin-bottom: 81px
+        @media (max-width: $media-pc-big)
+            flex-direction: column
+            margin-bottom: 20px
+        @media (max-width: $media-pc)
+            margin-bottom: 0    
+        &__img
+            width: 771px
+            height: 700px
+            margin-right: 52px
+            @media (max-width: $media-pc-big)
+                margin: 0px auto
+            @media (max-width: $media-phone)
+                display: none
+    &--description
+        padding-top: 88px
+        @media (max-width: $media-pc-big)
+            padding-top: 40px
+        @media (max-width: $media-pc)
+            padding-top: 0
+        &__title
+            font-size: 2.5em
+            line-height: 1em
+            color: #202020
+            text-transform: uppercase
+            letter-spacing: 0.040em
+            margin-bottom: 68px
+            @media (max-width: $media-pc-big)
+                text-align: center
+            @media (max-width: $media-pc)
+                width: 675px
+                margin: 70px auto 68px
+                text-align: left
+            @media (max-width: $media-phone)
+                margin: 48px auto 19px
+                width: 90%
+                font-size: 1.25em
+        &__text
+            font-size: 1em
+            line-height: 2.083334em
+            letter-spacing: 0.025em
+            width: 675px
+            color: #202020
+            margin-bottom: 10px
+            font-weight: 300
+            @media (max-width: $media-pc-big)
+                text-align: center
+                margin: 0px auto 10px
+            @media (max-width: $media-pc)
+                text-align: left
+            @media (max-width: $media-phone)
+                width: 90%
+                font-size: 0.66667em
+        &__name
+            font-size: 1.5em
+            margin-top: 53px
+            color: #202020
+            text-align: center
+            line-height: 1em
+            font-weight: 700
+            @media (max-width: $media-pc-big)
+                margin-top: 20px
+            @media (max-width: $media-pc)
+                text-align: left 
+                width: 675px
+                margin: 43px auto 40px
+            @media (max-width: $media-phone)
+                width: 90%
+                margin: 40px auto 49px
+                font-size: 0.66667em
+    &--bottom
+        padding-bottom: 52px
+        @media (max-width: $media-phone)
+            display: none
+        &__text
+            font-size: 0.6667em
+            color: #c9c9c9
+            line-height: 1em
+            letter-spacing: 0.1em
+            text-transform: uppercase
+            margin: 0 0 13px
+            text-align: center
+        &__scrollDown
+            margin: 0px auto
+            width: max-content
+            &:hover
+                cursor: pointer
+                &>i
+                    color: #000000
+            & i
+                margin: 0
+                font-size: 38px
+                display: block
+                color: #c9c9c9
+                &:nth-child(1)
+                    margin-bottom: -22px

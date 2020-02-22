@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaLight.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/NexaLight.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/NexaLight.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/NexaLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/NexaLight.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/PTSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/PTSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/PTSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/PTSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/PTSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/OpenSans-Light.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/OpenSans-Light.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/OpenSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/OpenSans-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/OpenSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/OpenSans.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}

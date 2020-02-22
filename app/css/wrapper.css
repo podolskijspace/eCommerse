@@ -1,0 +1,40 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-width: 1920px;
+  margin: 0px auto;
+}
+
+.wrapper--header {
+  background: url("../img/Background.png") no-repeat center top;
+  height: 100vh;
+  max-height: 1080px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper--header {
+    height: 920px;
+    background: url("../img/Background.png") no-repeat -650px -230px;
+  }
+}
+
+@media (max-width: 780px) {
+  .wrapper--header {
+    height: 270px;
+  }
+}
+
+@media (max-width: 780px) {
+  .wrapper--menu {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .wrapper--about {
+    padding-top: 697px;
+    background: url(../img/MyPhoto.png) no-repeat center top;
+  }
+}
